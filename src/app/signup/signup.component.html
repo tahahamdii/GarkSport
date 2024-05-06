@@ -1,0 +1,14 @@
+<!-- register.component.html -->
+
+<form (ngSubmit)="registerUser()">
+ <div class="form-group"><label for="firstName">firstName: </label> <input type="text" placeholder="First Name" class="form-control"
+    [(ngModel)]="user.firstName" name="firstName" required></div>
+<div class="form-group"><label for="lastName" class="form-group">LastName:</label><input type="text" placeholder="Last Name"
+    class="form-control" [(ngModel)]="user.lastName" name="lastName" required></div>
+<div class="form-group"><label for="UserName" class="form-group">UserName:</label><input type="text" placeholder="Username"
+    class="form-control" [(ngModel)]="user.username" name="username" required></div>
+<div class="form-group"><label for="role" class="form-group">Role:</label> <input type="text" placeholder="role" class="form-control"
+    [(ngModel)]="user.role" name="role" required></div>
+<div class="form-group"></div><label for="firstName" class="form-group">Password:</label>  <input type="password" placeholder="Password" class="form-control" [(ngModel)]="user.password" name="password" required>
+<div class="form-group"></div>   <div><button type="submit" style="margin-top: 10px;">Register</button></div> 
+</form>

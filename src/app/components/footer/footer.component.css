@@ -1,0 +1,20 @@
+ /* footer.component.css */
+ footer {
+    background-color: #001f3f;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  a {
+    color: #2ecc71;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
